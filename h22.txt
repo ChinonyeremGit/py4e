@@ -1,0 +1,24 @@
+An octothorpe is a pound/ mesh character - i.e #
+% character is a modulus and not a percent because that's how the designers Wanted it.
+python module are libraries for some python features, method is a thing called on functions, argument are passed on methods/functions
+from sys import argv, that's used to run a script with multiple argument
+ string.read() for python to read a file, string.readline() for python to read the line it's in, string.truncate() to delete entire file content and write, seek for their respective functions.
+ use from os.path import exists to use exists function to know if a file really exists,
+ to copy from one file to another using python, simply open the file, apply the read method saving it in a variable then write to the new file you want, ofcourse you will have to open it first.
+ use echo in cmd to write to an existing txt file
+ function checklist:
+ did you start your function with def? yes
+ does your function name have only characrers and_(underscore) characters? yes and it can have numbers as well
+ did you put your arguments after the parenthesis separated by commas? yes
+ did you make each argument unique (meaning no duplicated names)? yes
+ did you put a close parenthesis and a colon after the arguments? yes
+did you indent all lines of code you want in the function four spaces? no more, no less. yes
+did you "end" your function by going back to writing with no indent (dedenting, we call it)? yes
+
+when you run("use" or "call") a function, check these things:
+1.did you call/use/run this function by typing its name? yes
+2. did you put the ( character after the name to run it? yes
+3. did you put the values you want into the parentheses separated by commas?
+4. did you end the function call with a ) character? yes
+utf-8 means unicode transformation format 8 bits. 8 bits = 1 raw_bytes
+ascii means american standard code for information interchange

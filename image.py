@@ -64,3 +64,5 @@ def update(image_number):
 status = Label(root, text = 'image 1 of ' + str(len(li)),command=lambda:update(image_number), bd=1, relief=SUNKEN, anchor=E)
 status.grid(row=2, column=0, columnspan=3, sticky=W+E)
 root.mainloop()
+
+#nice code but no comments, pass
